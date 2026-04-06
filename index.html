@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Save Media</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light">
+
+<header>
+  <div class="logo">📥 Save <span>Media</span></div>
+  <button onclick="toggleTheme()">🌙</button>
+</header>
+
+<section class="hero">
+  <div class="badge">✔ Free — No Login Required</div>
+
+  <h1>Download <span>any video</span><br>in seconds</h1>
+
+  <p>
+    Paste a link from YouTube, Instagram, TikTok and more.
+    Download MP4 or MP3 instantly.
+  </p>
+
+  <div class="input-box">
+    <input id="url" placeholder="Paste a video URL here..." />
+    <button onclick="fetchVideo()">Fetch</button>
+  </div>
+
+  <div id="results"></div>
+</section>
+
+<section class="ads">ADVERTISEMENT</section>
+
+<section class="instructions">
+  <h2>How to use Save Media?</h2>
+  <ol>
+    <li>Copy the video link</li>
+    <li>Paste it here</li>
+    <li>Click Fetch</li>
+    <li>Select quality</li>
+    <li>Download instantly</li>
+  </ol>
+</section>
+
+<footer>
+  <p>© 2026 Save Media • Free Forever</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

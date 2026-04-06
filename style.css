@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  transition: 0.3s;
+}
+
+/* LIGHT MODE (Black BG) */
+body.light {
+  background: #0b0b0b;
+  color: white;
+}
+
+/* DARK MODE (White BG) */
+body.dark {
+  background: #ffffff;
+  color: black;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.logo span {
+  color: #4da6ff;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 32px;
+}
+
+.hero span {
+  color: #4da6ff;
+}
+
+.badge {
+  background: #1e1e1e;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+/* INPUT */
+.input-box {
+  margin-top: 20px;
+}
+
+input {
+  padding: 12px;
+  width: 70%;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 12px 20px;
+  background: #4da6ff;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* RESULTS */
+#results a {
+  display: block;
+  margin: 10px;
+  color: #4da6ff;
+}
+
+/* ADS */
+.ads {
+  margin: 40px;
+  padding: 30px;
+  text-align: center;
+  background: #1c1c1c;
+  border-radius: 10px;
+}
+
+/* INSTRUCTIONS */
+.instructions {
+  padding: 20px;
+  text-align: center;
+}
